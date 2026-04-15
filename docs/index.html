@@ -73,7 +73,7 @@
         <div class="legend-item"><span class="legend-dot ld-3"></span> Shipping — built an agent or deliverable</div>
     </div>
     <!-- 🥚 -->
-    <div style="position:absolute;top:0.5rem;right:0.5rem;font-size:0.6rem;color:#0a0e17;cursor:default;user-select:none" data-tip="You found it. Add found_easter_egg: true to your contributor JSON.">🥚</div>
+    <span style="position:absolute;top:1rem;right:1.5rem;font-size:0.55rem;cursor:default;user-select:none;-webkit-text-fill-color:#131a2e;color:#131a2e" title="You found it. Add found_easter_egg: true to your contributor JSON.">found_easter_egg</span>
 </div>
 
 <div class="stats-row">
@@ -100,29 +100,33 @@
         <button class="fbtn" onclick="setTrack('E',this)">E: QA/Sec</button>
         <button class="fbtn" onclick="setTrack('none',this)">No Track</button>
     </div>
-    <div class="table-wrap">
-        <table>
-            <thead><tr>
-                <th>#</th>
-                <th>Name</th>
-                <th data-tip="Registered / Running / Shipping">Stage</th>
-                <th data-tip="Automated evaluation score">Score</th>
-                <th data-tip="Track they chose">Track</th>
-                <th>Skills</th>
-                <th>Contributions</th>
-            </tr></thead>
-            <tbody id="tbody"><tr><td colspan="7" class="empty">Loading live data...</td></tr></tbody>
-        </table>
-    </div>
-</div>
-
-    <div style="background:rgba(26,32,53,0.6);border:1px solid rgba(99,179,237,0.1);border-radius:10px;padding:1rem;margin-top:1rem">
-        <div style="font-size:0.7rem;color:#718096;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.6rem;font-weight:600">Badges</div>
-        <div style="display:flex;gap:1.2rem;flex-wrap:wrap;font-size:0.8rem;color:#a0aec0">
-            <span>🐦 Early Bird — first 10</span>
-            <span>⭐ Gold Star — Level 3</span>
-            <span>🏆 Top Scorer — 80%+</span>
-            <span>🛡️ Security Champion</span>
+    <div style="display:flex;gap:1.2rem;align-items:flex-start">
+        <div class="table-wrap" style="flex:1;min-width:0">
+            <table>
+                <thead><tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th data-tip="Registered / Running / Shipping">Stage</th>
+                    <th data-tip="Automated evaluation score">Score</th>
+                    <th data-tip="Track they chose">Track</th>
+                    <th>Skills</th>
+                    <th>Contributions</th>
+                </tr></thead>
+                <tbody id="tbody"><tr><td colspan="7" class="empty">Loading live data...</td></tr></tbody>
+            </table>
+        </div>
+        <div style="width:150px;flex-shrink:0;background:rgba(26,32,53,0.6);border:1px solid rgba(99,179,237,0.1);border-radius:10px;padding:1rem;position:sticky;top:1rem">
+            <div style="font-size:0.68rem;color:#718096;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.8rem;font-weight:600">Badges</div>
+            <div style="font-size:0.78rem;color:#a0aec0;line-height:2">
+                🐦 Early Bird<br>
+                <span style="color:#4a5568;font-size:0.65rem">First 10 to register</span><br>
+                ⭐ Gold Star<br>
+                <span style="color:#4a5568;font-size:0.65rem">Completed Level 3</span><br>
+                🏆 Top Scorer<br>
+                <span style="color:#4a5568;font-size:0.65rem">80%+ eval score</span><br>
+                🛡️ Security<br>
+                <span style="color:#4a5568;font-size:0.65rem">QA & Security track</span>
+            </div>
         </div>
     </div>
 </div>

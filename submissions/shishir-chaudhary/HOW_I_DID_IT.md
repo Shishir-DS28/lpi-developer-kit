@@ -1,15 +1,16 @@
 # What I Did:
- > Connected my Claude desktop to the lpi-sandbox as an MCP server.
+ > Firstly I forked the master repository in my github, then I git cloned the repo to my local machine 
  
-> Using the tools to access materials from the sandbox.
+> Then I installed node.js and I also intalled Ollama.
  
-> Read through the topics like S.M.I.L.E., Reality Emulator, Reality Canvas.
+> RThen I ran LPI sandbox to verify if the tools were working .
 
-> Wrote a short description on what Reality Canvas would like for A Hospital, A Horse-Stable, A Smart Building and A Hmman Being.
+> Then by using Ollama I generated LLM outputs by giving general queries.
 # What I learned:
 
-> The true meaning and purpose of Reality Canvases.
+> I learned about Ollama and how LLM works locally.
 
-> Different ways and techniques of Spatial capturing.
+> How the LLM returns the outputs when I give reuests.
 
-> About the limitations of Reality Canvas Stag
+> I also learned about S.M.I.L.E. framework.
+
